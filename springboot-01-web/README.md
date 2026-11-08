@@ -1,8 +1,10 @@
 ## springboot-web
 
-### 项目总览
+---
 
-一个最简单的 Spring Boot Web 项目，寥寥几个类即可实现一个 web 服务端的搭建。  
+### 模块说明
+
+本模块主要演示一个最简单的 Spring Boot Web 项目如何实现，些许代码即可实现一个 web 服务端的搭建。  
 
 ### 步骤说明
 
@@ -154,6 +156,6 @@ graph LR
 
 ---
 
-<div style="text-align: center">
+<div align="center">
 <h4>OK，知道以上内容，你就可以实现一个简单的 Spring Boot Web 项目了。</h4>
 </div>

@@ -1,8 +1,8 @@
-<div style="text-align: center">
+<div align="center">
 
 # springboot-learning
 
-> 本项目以学习 SpringBoot 为主，会包含一些常见的配置和功能特性的使用方式。另外还有 SpringBoot 和一些第三方框架的集成使用。
+*本项目以学习 Spring Boot 为主，包含和一些第三方框架的集成。*
 
 </div>
 
@@ -16,7 +16,7 @@
 
 ## 模块介绍
 
-| 模块名称       | 描述            | 状态    | README                             |
-| -------------- | --------------- | ------- | ---------------------------------- |
-| springboot-web | SpringBoot 起步 | ✔️已完成 | [README](springboot-web\README.md) |
-| 持续更新中...  |                 |         |                                    |
+| 模块名称                                  | 描述                         | 状态    | README                                                        |
+| ----------------------------------------- | ---------------------------- | ------- | --------------------------------------------------------------- |
+| springboot-01-web                         | Spring Boot Web 起步             | ✅已完成 | [README](./springboot-01-web/README.md)                            |
+| 持续更新中...                             |                              |         |                                                               |

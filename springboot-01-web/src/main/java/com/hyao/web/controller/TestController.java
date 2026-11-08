@@ -11,7 +11,7 @@ public class TestController {
      * {@code @RequestParam} 示例.
      * <pre>
      *     请求示例
-     *     GET /test/get1?id=123456
+     *     GET /get1?id=123456
      * </pre>
      */
     @GetMapping("/get1")
@@ -23,7 +23,7 @@ public class TestController {
      * {@code @PathVariable} 示例.
      * <pre>
      *     请求示例
-     *     GET /test/get2/123456
+     *     GET /get2/123456
      * </pre>
      */
     @GetMapping("/get2/{id}")

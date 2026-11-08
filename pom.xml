@@ -8,7 +8,8 @@
     <name>springboot-learning</name>
     <description>A project for learning Spring Boot.</description>
     <modules>
-        <module>springboot-web</module>
+        <module>springboot-01-web</module>
+        <module>springboot-02-filter-listener-interceptor</module>
     </modules>
     <packaging>pom</packaging>
 

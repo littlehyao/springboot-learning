@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>com.hyao.web</groupId>
-    <artifactId>springboot-web</artifactId>
+    <artifactId>springboot-01-web</artifactId>
 
     <dependencies>
         <dependency>
