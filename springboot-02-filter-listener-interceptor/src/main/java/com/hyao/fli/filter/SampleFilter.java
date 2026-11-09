@@ -1,13 +1,11 @@
 package com.hyao.fli.filter;
 
 import jakarta.servlet.*;
-import jakarta.servlet.annotation.WebFilter;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 
 @Slf4j
-@WebFilter(filterName = "SampleFilter", urlPatterns = {"/*"})
 public class SampleFilter implements Filter {
 
     @Override
@@ -17,8 +15,9 @@ public class SampleFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-        log.info("[SampleFilter] 过滤方法");
+        log.info("[SampleFilter] 过滤方法, 前置逻辑");
         chain.doFilter(request, response);
+        log.info("[SampleFilter] 过滤方法, 后置逻辑");
     }
 
     @Override

@@ -6,7 +6,7 @@
 
 本模块主要演示一个最简单的 Spring Boot Web 项目如何实现，些许代码即可实现一个 web 服务端的搭建。  
 
-### 步骤说明
+### 快速入门
 
 - 在 [pom.xml](pom.xml) 中引入 spring-boot-starter-webmvc 依赖。
 - 定义一个 `@SpringBootApplication` 启动类 [Application.java](src/main/java/com/hyao/web/Application.java)。
