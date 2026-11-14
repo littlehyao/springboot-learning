@@ -10,6 +10,7 @@
     <modules>
         <module>springboot-web</module>
         <module>springboot-configuration</module>
+        <module>springboot-validation</module>
         <module>springboot-filter-listener-interceptor</module>
     </modules>
     <packaging>pom</packaging>
