@@ -1,19 +1,17 @@
-# springboot-configuration
+## springboot-configuration
+
+*本模块演示了 Spring Boot 配置文件的切换以及配置属性绑定。*
 
 ---
 
-## 模块说明
+### 快速入门
 
-本模块演示了 Spring Boot 配置文件的切换以及配置属性绑定。
-
-## 快速入门
-
-### 配置文件切换
+#### 配置文件切换
 
 - 创建不同的配置文件，文件名称前缀为 `application-`，名称后缀一般都是环境名称，例如 `dev`、`test`、`prod`。
 - 在 `application.yml` 配置文件中添加 `spring.profiles.active` 属性，激活指定的配置文件。
 
-### 配置属性绑定
+#### 配置属性绑定
 
 - 在 `application.yml` 配置文件中添加自定义配置项（单个配置项或成组的配置项集）。
 - 对于成组的配置项集，新建配置属性类，成员变量对应配置项集的属性，在类上添加 `@ConfigurationProperties` 注解实现配置类与配置文件进行绑定。
@@ -21,9 +19,9 @@
 - 也可以直接在 `@ConfigurationProperties` 注解的配置属性类上添加 `@Configuration` 注解，实现配置属性类与配置文件的绑定。
 - 对于单个配置项，在配置类或 Bean 类中定义一个成员变量, 添加 `@Value` 注解实现单个配置项的绑定。
 
-## 知识汇总
+### 知识汇总
 
-### 配置文件切换
+#### 配置文件切换
 
 - 主配置文件 `application.yml`和各环境配置文件 `application-*.yml`。
 - 服务启动后，先加载主配置文件，然后通过 `spring.profiles.active` 激活指定环境的配置文件。
@@ -48,7 +46,7 @@
   ```
 
 
-### 配置属性绑定
+#### 配置属性绑定
 
 - `@ConfigurationProperties` 通过 `value` 属性指定前缀，将配置文件中该前缀的属性绑定到配置类中。
 - 配置类上添加 `@Configuration` 注解，否则不生效。

@@ -1,6 +1,6 @@
-package com.hyao.config.controller;
+package com.hyao.learning.config.controller;
 
-import com.hyao.config.config.MyAppProperties;
+import com.hyao.learning.config.config.MyAppProperties;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

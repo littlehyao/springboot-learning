@@ -1,6 +1,6 @@
-package com.hyao.fli.config;
+package com.hyao.learning.fli.config;
 
-import com.hyao.fli.interceptor.SampleInterceptor;
+import com.hyao.learning.fli.interceptor.SampleInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;

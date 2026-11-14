@@ -1,6 +1,6 @@
-package com.hyao.config;
+package com.hyao.learning.config;
 
-import com.hyao.config.config.MyAppProperties;
+import com.hyao.learning.config.config.MyAppProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,7 +1,7 @@
-package com.hyao.fli.config;
+package com.hyao.learning.fli.config;
 
-import com.hyao.fli.filter.SampleAnnotatedFilter;
-import com.hyao.fli.filter.SampleFilter;
+import com.hyao.learning.fli.filter.SampleAnnotatedFilter;
+import com.hyao.learning.fli.filter.SampleFilter;
 import org.springframework.boot.web.servlet.FilterRegistration;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;

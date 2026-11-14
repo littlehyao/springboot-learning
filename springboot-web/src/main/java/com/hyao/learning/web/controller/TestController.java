@@ -1,4 +1,4 @@
-package com.hyao.web.controller;
+package com.hyao.learning.web.controller;
 
 import org.springframework.web.bind.annotation.*;
 

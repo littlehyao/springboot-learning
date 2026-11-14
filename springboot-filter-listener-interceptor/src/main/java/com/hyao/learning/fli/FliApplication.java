@@ -1,11 +1,11 @@
-package com.hyao.config;
+package com.hyao.learning.fli;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConfigurationApplication {
+public class FliApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigurationApplication.class, args);
+        SpringApplication.run(FliApplication.class, args);
     }
 }

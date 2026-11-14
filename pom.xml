@@ -2,15 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.hyao</groupId>
+    <groupId>com.hyao.learning</groupId>
     <artifactId>springboot-learning</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-learning</name>
     <description>A project for learning Spring Boot.</description>
     <modules>
         <module>springboot-web</module>
-        <module>springboot-filter-listener-interceptor</module>
         <module>springboot-configuration</module>
+        <module>springboot-filter-listener-interceptor</module>
     </modules>
     <packaging>pom</packaging>
 

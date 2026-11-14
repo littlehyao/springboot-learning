@@ -1,16 +1,14 @@
 ## springboot-web
 
+*本模块主要演示一个最简单的 Spring Boot Web 项目如何实现，些许代码即可实现一个 web 服务端的搭建。*
+
 ---
-
-### 模块说明
-
-本模块主要演示一个最简单的 Spring Boot Web 项目如何实现，些许代码即可实现一个 web 服务端的搭建。  
 
 ### 快速入门
 
 - 在 [pom.xml](pom.xml) 中引入 spring-boot-starter-webmvc 依赖。
-- 定义一个 `@SpringBootApplication` 启动类 [Application.java](src/main/java/com/hyao/web/Application.java)。
-- 写一个 Controller 示例 [MyFirstController.java](src/main/java/com/hyao/web/controller/MyFirstController.java)。
+- 定义一个 `@SpringBootApplication` 启动类 [Application.java](src/main/java/com/hyao/learning/web/Application.java)。
+- 写一个 Controller 示例 [MyFirstController.java](src/main/java/com/hyao/learning/web/controller/MyFirstController.java)。
 - 这样一个 web 服务端就写好了，启动后可以直接调用 controller 中的接口.
 
 ### 知识汇总

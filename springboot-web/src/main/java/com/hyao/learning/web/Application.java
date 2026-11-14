@@ -1,4 +1,4 @@
-package com.hyao.web;
+package com.hyao.learning.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

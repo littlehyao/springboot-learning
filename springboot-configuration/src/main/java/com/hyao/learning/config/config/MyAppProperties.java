@@ -1,4 +1,4 @@
-package com.hyao.config.config;
+package com.hyao.learning.config.config;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
