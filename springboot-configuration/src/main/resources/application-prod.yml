@@ -1,0 +1,10 @@
+time-zone: Asia/Shanghai
+myapp:
+  env: prod
+  tag:
+    id: ea4b5c6d7e8f9a0b
+    name: tag-name
+    author:
+      - Tom
+      - Jerry
+      - Spike

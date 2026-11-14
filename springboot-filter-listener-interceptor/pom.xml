@@ -10,6 +10,6 @@
     </parent>
 
     <groupId>com.hyao.fli</groupId>
-    <artifactId>springboot-02-filter-listener-interceptor</artifactId>
+    <artifactId>springboot-filter-listener-interceptor</artifactId>
 
 </project>

@@ -1,0 +1,17 @@
+server:
+  port: 8082
+
+spring:
+  profiles:
+    active: prod
+
+my-app:
+  name: springboot-03-configuration
+  env: dev
+  last-deploy: 20230401
+  tag:
+    id: ea4b5c6d7e8f9a0b
+    name: tag-name
+    author:
+      - Tom
+      - Jerry
