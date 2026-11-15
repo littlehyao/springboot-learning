@@ -20,5 +20,6 @@
 | ----------------------------------------- | ---------------------------- | ------- | --------------------------------------------------------------- |
 | springboot-web                         | Spring Boot Web 起步             | ✅已完成 | [README](springboot-web/README.md)                            |
 | springboot-configuration | 配置读取绑定 | ✅已完成 | [README](springboot-configuration/README.md) |
+| springboot-validation | Spring Validation | ✅已完成 | [README](springboot-validation/README.md) |
 | springboot-filter-listener-interceptor | 自定义过滤器，监听器和拦截器 | ✅已完成 | [README](springboot-filter-listener-interceptor/README.md) |
 | 持续更新中...                             |                              |         |                                                               |

@@ -40,7 +40,7 @@ public class SampleRequestDTO {
 
     @NotEmpty(message = "映射不能为空")
     @Size(min = 1, max = 5, message = "映射长度在1到5之间")
-    private Map<@NotBlank String, @NotNull @Valid User> map;
+    private Map<@NotBlank String, @NotBlank String> map;
 
     private LocalDate beginDate;
 
