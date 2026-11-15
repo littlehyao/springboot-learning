@@ -2,7 +2,6 @@ package com.hyao.learning.config.controller;
 
 import com.hyao.learning.config.config.MyAppProperties;
 import jakarta.annotation.Resource;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 import java.util.Map;
 
-@Slf4j
 @RestController
 public class TestController {
 
@@ -22,7 +20,6 @@ public class TestController {
 
     @GetMapping("/test")
     public Map<String, Object> test() {
-        log.debug("[Spring 配置绑定] 调试...");
         Map<String, Object> map = new HashMap<>();
         map.put("timeZone", timeZone);
         map.put("name", myAppProperties.getName());

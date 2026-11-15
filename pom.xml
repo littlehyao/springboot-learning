@@ -11,6 +11,7 @@
         <module>springboot-web</module>
         <module>springboot-configuration</module>
         <module>springboot-validation</module>
+        <module>springboot-response-exception</module>
         <module>springboot-filter-listener-interceptor</module>
     </modules>
     <packaging>pom</packaging>
