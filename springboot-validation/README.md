@@ -211,7 +211,7 @@ Hibernate Validation 规范是在 Jakarta Validation 规范下扩展的，Spring
 
 Spring 框架分组校验还支持一些额外的特性，诸如顺序分组，动态分组，级联分组等等。
 
-> 使用校验分组时会定义一个接口接口，这个接口只是起到一个标识分组的作用，没有其他意义。
+> 使用校验分组时会定义一个接口，这个接口只是起到一个标识分组的作用，没有其他意义。
 
 ##### 顺序分组
 
@@ -367,9 +367,9 @@ Spring 框架分组校验还支持一些额外的特性，诸如顺序分组，�
   
   @Data
   public class Identification {
-      @NotBlank(message = "身份证类型不能为空", groups = IdentificationGroup.class)
+      @NotBlank(message = "证件类型不能为空", groups = IdentificationGroup.class)
       private String idType;
-      @NotBlank(message = "身份证号码不能为空", groups = IdentificationGroup.class)
+      @NotBlank(message = "证件号码不能为空", groups = IdentificationGroup.class)
       private String idNumber;
   }
   
