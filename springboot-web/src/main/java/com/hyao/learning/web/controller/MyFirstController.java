@@ -12,7 +12,7 @@ public class MyFirstController {
     /**
      * 页面渲染。
      */
-    @RequestMapping(value = {"/hello", "/index"})
+    @RequestMapping(value = {"/hello", "/index"}, method = RequestMethod.GET)
     public String hello(Model model) {
         model.addAttribute("title", "Hello, World!");
         model.addAttribute("message", "Welcome to Spring Boot!");
@@ -22,7 +22,7 @@ public class MyFirstController {
     /**
      * JSON 接口请求。
      */
-    @RequestMapping("/api/hello")
+    @RequestMapping(value = "/api/hello", method = RequestMethod.GET)
     @ResponseBody
     public Map<String, Object> hello() {
         return Map.of(

@@ -10,7 +10,7 @@ import java.util.List;
 
 @Data
 @Validated
-@ConfigurationProperties(prefix = "my-app")
+@ConfigurationProperties(prefix = "myapp")
 public class MyAppProperties {
     private String name;
 

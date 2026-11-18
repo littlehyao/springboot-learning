@@ -3,6 +3,8 @@ package com.hyao.learning.re.model;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.hyao.learning.re.exception.IErrorCode;
 import lombok.Data;
+import org.slf4j.helpers.FormattingTuple;
+import org.slf4j.helpers.MessageFormatter;
 
 @Data
 @JsonPropertyOrder({"code", "message", "data"})
@@ -17,8 +19,9 @@ public class ResponseData {
         this.data = data;
     }
 
-    public static ResponseData failure(IErrorCode errorCode) {
-        return failure(errorCode.getCode(), errorCode.getMessage());
+    public static ResponseData failure(IErrorCode errorCode, String... args) {
+        FormattingTuple message = MessageFormatter.format(errorCode.getMessage(), args);
+        return failure(errorCode.getCode(), message.getMessage());
     }
 
     public static ResponseData failure(String code, String message) {
@@ -30,6 +33,6 @@ public class ResponseData {
     }
 
     public static ResponseData success(Object data) {
-        return new ResponseData("success", "", data);
+        return new ResponseData("99999", "", data);
     }
 }

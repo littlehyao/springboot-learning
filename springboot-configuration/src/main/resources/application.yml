@@ -5,7 +5,7 @@ spring:
   profiles:
     active: prod
 
-my-app:
+myapp:
   name: springboot-03-configuration
   env: dev
   last-deploy: 20230401
